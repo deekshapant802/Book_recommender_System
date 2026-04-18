@@ -9,12 +9,12 @@ A recommendation system built using collaborative filtering on 1.1M user ratings
 - Cosine similarity model
 
 ## Tech Stack
-Python, Pandas, Scikit-learn, Streamlit
+Python, Flask, Pandas, NumPy, Scikit-learn
 
 ## Results
 - Processed 271K books and 1.1M ratings
 - Achieved meaningful personalized recommendations
 
 ## How to Run
-pip install -r requirements.txt
-streamlit run app.py
+pip install -r requirements.txt  
+python app.py
